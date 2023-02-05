@@ -52,3 +52,12 @@ input[type="button"] {
 .complete {
     text-decoration: line-through;
 }
+
+.important {
+    color: red;
+}
+
+/* input[type="important"] {
+    background: #840000;
+    color: #fff;
+} */
