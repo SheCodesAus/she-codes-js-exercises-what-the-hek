@@ -1,7 +1,6 @@
 function add(step) {
     let numberElement = document.getElementById("number");
     let number = numberElement.innerText;
-    // console.log(number);
     number = parseInt(number) + step;
     numberElement.innerText = number;
 }
@@ -12,4 +11,18 @@ function take(step) {
     let number = numberElement.innerText;
     number = parseInt(number) - step;
     numberElement.innerText = number;
+}
+
+// adds or subtracts a random number to the total
+function random(min, max) {
+    let numberElement = document.getElementById("number");
+    let number = numberElement.innerText;
+    number = parseInt(number) + (Math.floor(Math.random() * (max - min) + min));
+    numberElement.innerText = number;
+}
+
+// resets the counter to 0
+function Reset() {
+    let numberElement = document.getElementById("number");
+    numberElement.innerText = 0;
 }
