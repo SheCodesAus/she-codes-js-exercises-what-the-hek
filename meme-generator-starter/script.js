@@ -9,20 +9,15 @@ function getImage() {
     let wrapper = document.getElementById("meme-image-wrapper");
     wrapper.appendChild(imageBox);
 
-    // my attempt - - - - - - 
-    // let imageBox = document.createElement("img");
-    // imageBox.classList.add("meme-image");
-
-    // imageBox.appendChild("meme-image-wrapper");
-
-    // let outputElement = document.getElementById("output");
-    // outputElement.appendChild(speechBubbleElement);
-
     document.getElementById("meme-builder").style.display = "block";
-
 }
 
 function addTopText() {
     let topText = document.getElementById("top-text-input").value;
     document.getElementById("top-text").innerText = topText;
+}
+
+function addBottomText() {
+    let bottomText = document.getElementById("bottom-text-input").value;
+    document.getElementById("bottom-text").innerText = bottomText;
 }

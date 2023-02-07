@@ -28,9 +28,14 @@ input[type="button"] {
     color: #fff;
     border-radius: 3px;
     padding: 2px;
+    margin: 2px;
     font-size: 1.5rem;
     width: 60px;
     height: 40px;
+}
+
+#reset {
+    font-size: 1.2rem;
 }
 
 input[type="button"]:hover {
